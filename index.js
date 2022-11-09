@@ -25,8 +25,14 @@ async function run() {
     app.get("/services", async (req, res) => {
       const query = {};
       const cursor = serviceCollection.find(query);
-      const users = await cursor.toArray();
-      res.send(users);
+      const services = await cursor.toArray();
+      res.send(services);
+    });
+    app.get("/homeServices", async (req, res) => {
+      const query = {};
+      const cursor = serviceCollection.find(query).limit(3);
+      const services = await cursor.toArray();
+      res.send(services);
     });
   } finally {
   }
