@@ -1,0 +1,91 @@
+[
+  {
+    "_id": "0282e0e58a5c404fbd15261f11c2ab6a01",
+    "rating": 4.5,
+    "total_view": 488,
+    "title": "Yummy Pizza",
+    "image_url": "https://images.news18.com/ibnlive/uploads/2021/01/1610716314_untitled-design-2021-01-15t184025.049.jpg",
+    "details": "Pizza is so yummy that you hardly avoid it. One of my most demanding food is the pizza. "
+  },
+  {
+    "_id": "0282e0e58a5c404fbd15261f11c2ab6a02",
+    "rating": 4.7,
+    "total_view": 485,
+    "price": 35,
+    "title": "Veggie Burger",
+    "image_url": "https://i.insider.com/5a7dc169d03072af008b4bf2?width=807",
+    "details": "Recreating the sensation of meat relies not only on flavour, texture and color, but also on how it responds to cooking and the way it feels in the mouth."
+  },
+  {
+    "_id": "0282e0e58a5c404fbd15261f11c2ab6a03",
+    "rating": 4.3,
+    "total_view": 495,
+    "price": 35,
+    "title": "Fried Samosa",
+    "image_url": "https://steemitimages.com/DQmNXiecB9S5x6nGPhv1KQYoXqZsKjhVgbNfTUqp6p1SRAV/4.jpg",
+    "details": "This is Samosa - A typical food item in house mostly used as serving for the guests. If you haven't taste it yet then please give it a try..."
+  },
+  {
+    "_id": "0282e0e58a5c404fbd15261f11c2ab6a04",
+    "rating": 4.8,
+    "total_view": 495,
+    "price": 35,
+    "title": " Idly",
+    "image_url": "https://www.holidify.com/images/cmsuploads/compressed/indian-1768906_1920_20180322173733.jpg",
+    "details": "Being the staple food of many places, Idli is very much delicious. It is made from rice and is usually served with sambar and coconut chutney. The process of making these is quite easy"
+  },
+  {
+    "_id": "0282e0e58a5c404fbd15261f11c2ab6a05",
+    "rating": 4.8,
+    "total_view": 775,
+    "price": 35,
+    "title": "Pani Puri",
+    "image_url": "https://t4.ftcdn.net/jpg/03/05/35/65/360_F_305356563_RjpA8bNIfjd2s78JpTt3Ed6hKWPUBOwS.jpg",
+    "details": "Pani Puri or Gol Gappa is a popular street food across India. Among the various street vendors, one particular vendor stands out. It is Tommy  Mia's Pani puri for which people queue up."
+  },
+  {
+    "_id": "0282e0e58a5c404fbd15261f11c2ab6a06",
+    "rating": 4.6,
+    "total_view": 675,
+    "price": 35,
+    "title": "Chipotle Salads",
+    "image_url": "https://photos.demandstudios.com/getty/article/106/248/517724165.jpg",
+    "details": "This salad contains a little amount of fat. Rather my main goal was to prepare such a food item that helps to lose body-fat and get healthy life."
+  },
+  {
+    "_id": "0282e0e58a5c404fbd15261f11c2ab6a07",
+    "rating": 4.6,
+    "total_view": 975,
+    "price": 35,
+    "title": "Sheek Kabab",
+    "image_url": "https://www.travelmate.com.bd/wp-content/uploads/2018/09/Sheek-Kabab.jpg",
+    "details": "Sheek Kabab is a tempting food in Bangladesh. It is made with cubic pieces of beef or mutton. The cuisine is prepared with meat, and it is marinated the spices."
+  },
+  {
+    "_id": "0282e0e58a5c404fbd15261f11c2ab6a08",
+    "rating": 4.2,
+    "total_view": 575,
+    "price": 35,
+    "title": "Falooda",
+    "image_url": "https://www.travelmate.com.bd/wp-content/uploads/2018/09/Falooda.jpg",
+    "details": "Falooda is a very popular cold dessert in Bangladesh, and it is found in the subcontinent. Mainly, it is mixed with a lot of items including sweets and fruits."
+  },
+  {
+    "_id": "0282e0e58a5c404fbd15261f11c2ab6a09",
+    "rating": 4.6,
+    "total_view": 1075,
+    "price": 35,
+    "title": "Rasmalai",
+    "image_url": "https://www.travelmate.com.bd/wp-content/uploads/2018/09/Rasmalai.jpg",
+    "details": "Rasmalai is a unique dessert in Bangladesh, and it seems like malai cream but cheese ball in appearance. The malai ball is coated with another texture. In Bangladesh, you will find Rasmali in every sweet shop."
+  },
+  {
+    "_id": "0282e0e58a5c404fbd15261f11c2ab6a010",
+    "rating": 4.6,
+    "total_view": 1075,
+    "price": 35,
+    "title": "Kachchi Biriyani",
+    "image_url": "https://www.travelmate.com.bd/wp-content/uploads/2018/09/Kachchi-Biriyani.jpg",
+    "details": "Kachchi Biriyani is very delicious and featured food as the main dishes. It is served at the wedding or special party. It is made with special kinds of rice, meat, and potatoes. The named Kachchi comes for the cooking system."
+  }
+]

@@ -6,8 +6,10 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-app.get("/", (req, res) => {
-  res.send("server is running well!");
+const services = require('./data/services.json');
+
+app.get("/services", (req, res) => {
+  res.send(services);
 });
 
 app.listen(port, () => {
