@@ -50,7 +50,7 @@ async function run() {
           email: req.query.email,
         };
       }
-      const cursor = reviewCollection.find(query);
+      const cursor = reviewCollection.find(query).sort({total_time:-1});
       const reviews = await cursor.toArray();
       res.send(reviews);
     });
