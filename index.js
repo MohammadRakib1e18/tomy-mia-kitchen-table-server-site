@@ -21,6 +21,9 @@ async function run() {
     const serviceCollection = client
       .db("tommy-resturant")
       .collection("allServices");
+    const reviewCollection = client
+      .db("tommy-resturant")
+      .collection("allReviews");
 
     app.get("/services", async (req, res) => {
       const query = {};
@@ -39,6 +42,12 @@ async function run() {
       const query = {_id:ObjectId(id)};
       const service = await serviceCollection.findOne(query);
       res.send(service);
+    })
+    app.post('/addReview', async(req, res)=>{
+      const review = req.body;
+      const result = await reviewCollection.insertOne(review);
+      res.send(result);
+      console.log(result);
     })
   } finally {
   }
