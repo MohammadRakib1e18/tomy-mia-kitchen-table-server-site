@@ -43,6 +43,12 @@ async function run() {
       const service = await serviceCollection.findOne(query);
       res.send(service);
     })
+    app.get('/allReviews', async(req, res)=>{
+      const query = {};
+      const cursor = reviewCollection.find(query);
+      const reviews = await cursor.toArray();
+      res.send(reviews);
+    })
     app.post('/addReview', async(req, res)=>{
       const review = req.body;
       const result = await reviewCollection.insertOne(review);
