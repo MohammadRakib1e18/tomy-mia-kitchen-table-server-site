@@ -37,37 +37,45 @@ async function run() {
       const services = await cursor.toArray();
       res.send(services);
     });
-    app.get('/services/:id', async(req, res)=>{
+    app.get("/services/:id", async (req, res) => {
       const id = req.params.id;
-      const query = {_id:ObjectId(id)};
+      const query = { _id: ObjectId(id) };
       const service = await serviceCollection.findOne(query);
       res.send(service);
-    })
-    app.get('/allReviews', async(req, res)=>{
+    });
+    app.get("/allReviews", async (req, res) => {
       let query = {};
-      if(req?.query?.email){
-        query={
-          email:req.query.email
-        }
+      if (req?.query?.email) {
+        query = {
+          email: req.query.email,
+        };
       }
       const cursor = reviewCollection.find(query);
       const reviews = await cursor.toArray();
       res.send(reviews);
-    })
+    });
 
-    app.post('/addReview', async(req, res)=>{
+    app.post("/addReview", async (req, res) => {
       const review = req.body;
       const result = await reviewCollection.insertOne(review);
       res.send(result);
       console.log(result);
-    })
-    app.post('/addService', async(req, res)=>{
+    });
+    app.post("/addService", async (req, res) => {
       const service = req.body;
       console.log(service);
       const result = await serviceCollection.insertOne(service);
       res.send(result);
       console.log(result);
-    })
+    });
+    app.delete("/services/delete/:id", async (req, res) => {
+      const id = req.params.id;
+      console.log(id);
+      const query = { _id: ObjectId(id) };
+      const result = await reviewCollection.deleteOne(query);
+      console.log(result);
+      res.send(result);
+    });
   } finally {
   }
 }
